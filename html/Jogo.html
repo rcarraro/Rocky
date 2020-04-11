@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo</title>
+    <link href="Estilo.css" rel="stylesheet">
+</head>
+<body id="jogo">
+<audio autoplay loop>
+    <source src="musica.mp3">
+</audio>
+    <canvas id="MyCanvas" width=800 height="600")></canvas><br>
+    <canvas id="vida" width="200" height="50" ></canvas><br>
+    <input type="button" value="Jogar" onclick="start()">
+    <div id="regras">
+        <img src="setacima.png"> <p>Segure para mover o rocky para cima.</p>
+        <img src="setabaixo.png"> <p>Segure para mover o Rocky para baixo.</p>
+        <img src="setadireita.png"><p> Aperte para o Rocky dar um jab de direita.</p>
+        <img src="setaesquerda.png"> <p>Aperte para o Rocky dar um jab de esquerda.</p>
+        <img src="barril.png"> <p>O barril, que deve ser acertado pelo Rocky no treino. Cuidado, podem vir um em cima do outro</p>
+    </div>
+    <script src="JogoAnimação.js"></script>
+
+</body>
+</html>
